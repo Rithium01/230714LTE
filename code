@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   if (digitalRead(switchPin) == 0) {
-    sendSMS("01086290108", "Switch pressed!");  // 스위치 누를 때 SMS 전송 함수 호출
+    sendSMS("01010101010", "Switch pressed!");  // 스위치 누를 때 SMS 전송 함수 호출
     delay(1000);  // 디바운싱을 위한 딜레이
   }
 }
